@@ -1,11 +1,11 @@
-import Profile from "./components/Profile";
-import user from "./user.json";
-import StatList from "./components/statList";
-import statisticalData from "./statistical-data.json"
-import FriendList from "./components/FriendList";
-import friends from "./friends.json";
-import TransactionHistory from "./components/TransactionHistory";
-import transactions from "./transactions.json";
+import Profile from "./components/Profile/Profile";
+import user from "./components/Profile/user.json";
+import StatList from "./components/Statistic/statList";
+import statisticalData from "./components/Statistic/statistical-data.json"
+import FriendList from "./components/FriendList/FriendList";
+import friends from "./components/FriendList/friends.json";
+import TransactionHistory from "./components/Transaction/TransactionHistory";
+import transactions from "./components/Transaction/transactions.json";
 
 
 
