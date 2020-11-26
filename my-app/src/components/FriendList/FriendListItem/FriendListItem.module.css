@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  background: #ffffff;
+
+  margin: 0 auto;
+  font-family: 'Texturina', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #706e68ee;
+  align-items: stretch;
+  margin-bottom: 20px;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.status {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-right: 16px;
+  background-color: #f53426;
+}
+
+.isActive {
+  composes: status;
+  background-color: #3dd61b;
+}
+
+.avatar {
+  border-radius: 15px;
+  margin-right: 18px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+}
